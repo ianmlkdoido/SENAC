@@ -1,1 +1,111 @@
-TESTE
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de Desafios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .challenge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .challenge-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .challenge-item h2 {
+            color: #007bff;
+        }
+        .challenge-item p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        .challenge-item button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .challenge-item button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desafios HTML</h1>
+        <p>Teste suas habilidades com nossos desafios de HTML!</p>
+    </header>
+
+    <div class="container">
+        <section class="challenge-list">
+            <div class="challenge-item">
+                <h2>Desafio 1: Desafio de Programação</h2>
+                <p>Crie um algoritimo que esteja escrito "Meu site em html" no centro da página.</p>
+                <p>Nível: FÁCIL.</p>
+                <a href="pag2.html"><button onclick="window.location.href='#'">Aceitar Desafio</button></a>
+            </div>
+            <div class="challenge-item">
+                <h2>Desafio 2: Desafio de Programação</h2>
+                <p>Faça um botão.</p>
+                <p>Nível: MÉDIO.</p>
+                <a href="pag3.html"><button onclick="window.location.href='#'">Aceitar Desafio</button></a>
+            </div>
+            <div class="challenge-item">
+                <h2>Desafio 3: Desafio de Programação</h2>
+                <p>Coloque um titulo na página web com uma imagem no centro.</p>
+                <p>Nível: DÍFICIL.</p>
+                <a href="pag4.html"><button onclick="window.location.href='#'">Aceitar Desafio</button></a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Desafios de HTML | Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
